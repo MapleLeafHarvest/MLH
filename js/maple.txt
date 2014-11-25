@@ -1,0 +1,9 @@
+$(document).ready(function(){
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    document.getElementById('logo').style.height= 150-scroll+"px";
+	document.getElementById('logo').style.width= 150-scroll+"px";
+});
+
+
+});
