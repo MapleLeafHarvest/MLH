@@ -37,6 +37,42 @@ body {
      font-size: 15px;
      font-weight: 300;
 }
+.paragraphT {
+     left: 400px;
+     position: relative;
+     top: -70px;
+     width: 50%;
+	 text-align:justify;
+}
+
+.nameT {
+     font-family: "Roboto",sans-serif;
+     font-size: 23px;
+     font-weight: 300;
+}
+
+.positionT {
+     color: #9bd450;
+     font-family: "Roboto",sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     position: relative;
+     top: -10px;
+}
+
+#other {
+     position: relative;
+}
+
+.pLetters {
+     font-family: "Roboto",sans-serif;
+     font-size: 17px;
+     font-weight: 300;
+}
+
+#navTest{
+background-color:black;
+} 
 
 #slogan {
     
