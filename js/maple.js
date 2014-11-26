@@ -2,7 +2,9 @@ $(document).ready(function(){
 $(window).scroll(function (event) {
 		var test =$('#logo').offset().top- $(window).scrollTop();
 		var test2 =$('#other').offset().top;
-
+navBar();
+buttonH();
+videoH();
 
 	 if ( $(window).scrollTop() < 222)
     {
@@ -46,6 +48,49 @@ $(window).scroll(function (event) {
 
 
 });
+
+function navBar(){
+ var pos = $(window).scrollTop();
+ 
+ if ( pos > 495){
+document.getElementById('navTest').style.display= "block"; 
+
+ }
+ 
+ else if ( pos< 495)
+ document.getElementById('navTest').style.display= "none"; 
+
+
+    
+}
+
+function videoH(){
+ var pos = $(window).scrollTop();
+
+ if ( pos > 495){
+document.getElementById('vid').style.display= "none"; 
+
+ }
+ 
+ else if ( pos< 495)
+ document.getElementById('vid').style.display= "block"; 
+
+
+}
+
+function buttonH(){
+ var pos = $(window).scrollTop();
+
+ if ( pos > 495){
+document.getElementById('supportB1').style.display= "none"; 
+
+ }
+ 
+ else if ( pos< 495)
+ document.getElementById('supportB1').style.display= "block"; 
+
+
+}
 
 function centerSlogan(){
 var w= $('#sloganW').width()/2;
