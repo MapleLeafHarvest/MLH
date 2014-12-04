@@ -1,0 +1,343 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title> Maple Leaf Harvest </title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/dist/css/bootstrap.min.css">
+<link rel ="stylesheet" href ="css/main.css">
+<link rel ="stylesheet" href ="css/team.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/dist/css/bootstrap-theme.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<link href="//vjs.zencdn.net/4.10/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.10/video.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <script  type="text/javascript"src="http://code.jquery.com/jquery-2.1.0.min.js"></script>	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript"src="js/team.js"></script>
+
+	<noscript> Javascript Must be enabled on your browser! </noscript>
+<style type="text/css">
+  section.module.parallax {
+  height: 589px;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position:relative;
+  z-index:1;
+}
+
+  section.module.parallax2 {
+  height: 200px;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position:relative;
+  z-index:1;
+}
+section.module.parallax-1 {
+  background-image: url("css/cakes.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("css/leafs.jpg");
+}
+</style>
+</head>
+
+
+<body>
+
+
+<div id="mobileLogo" class="dropdown" style="position:fixed; z-index:10; display:none;">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false" style="background-color:transparent;color:white; border:none; position:relative; top:25px; left:25px;">
+    
+    <span class="glyphicon glyphicon-th"></span>
+  </button>
+  <ul style="position:fixed; top:67px;" aria-labelledby="dLabel" role="menu" class="dropdown-menu">
+				<li><a class="navB" href="index.html"> Home </a> </li>
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle navB" id="dropperT" data-toggle="dropdown" role="button" aria-expanded="true">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu" style="background-color:rgba(0,0,0,0.9);width:300px; top:59px;left:80px; font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Who we are</a></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">What Makes us Different</a></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Food is Available</a></li>
+            <li style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;"></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">People are in Need</a></li>
+	    <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Our Founder</a></li>
+          </ul>
+        </li>
+    <li><a class="navB" href="#"> Blog </a></li>
+				<li><a class="navB" href="#"> Support Us </a></li>
+				<li><a class="navB" href="team.html"> Team </a></li>
+				<li><a class="navB" href="#"> Contact </a></li>
+  </ul>
+</div>
+
+<ul id="mobileSocial" class="navbar-nav pull-right" style="position:fixed; z-index:10; top:10px;left:60%; display:none;">
+  <li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+        				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+                				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+</ul>
+
+
+<div id="navTest" style="height: 70px; width: 100%; position: fixed; z-index: 7; display: block;">
+</div>
+<div id ="originalNav">
+<nav class="navbar-nav navbar-fixed-top" role="navigation">
+
+    <ul class="nav navbar-nav" style="margin-top:10px;"> 
+      
+	  <li> <img src="css/logo.jpg" height="70px;" width="70px;" style="margin-left:40px;"> </li>
+	  
+			</ul>
+    
+			<ul class="nav navbar-nav navbar-right" id="mainNav" style="margin-top:10px; font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; margin-right:2%;">
+				<li><a class="navB" href="index.html"> Home </a> </li>
+				
+   <li class="dropdown">
+          <a href="#" class="dropdown-toggle navB" id="dropperT" data-toggle="dropdown" role="button" aria-expanded="true">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu" style="background-color:rgba(0,0,0,0.9);width:300px; top:59px;left:80px; font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Who we are</a></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">What Makes us Different</a></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Food is Available</a></li>
+            <li style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;"></li>
+            <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">People are in Need</a></li>
+	    <li><a href="#" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Our Founder</a></li>
+          </ul>
+        </li>
+
+       
+				<li><a class="navB" href="#"> Blog </a></li>
+				<li><a class="navB" href="#"> Support Us </a></li>
+				<li><a class="navB" href="team.html"> Team </a></li>
+				<li><a class="navB" href="#"> Contact </a></li>
+				<li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+        				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+                				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+			</ul>
+		
+    </nav>
+		</div>
+
+<div style="display: none;" class="modal fade" id="helenD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+<p style="text-align:center;"><img src="css/staff/Helen.jpg" style="float:none; text-align:center" height="195px;" width="215px;"> </p>
+            <p class="nameT" style="text-align:center"> Helen verDuin Palit <br> </p>
+
+        <p class="positionT" style="text-align:center">  Founder and President <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;"> h.palit@mapleleafharvest.org  </span>
+         </p></div>
+      <div class="modal-body">
+    <p class="pLetters" style="text-align:justify">  A Social Entrepreneur pioneered the perishable food recovery system feeding one million people a day throughout the 1,103 cities of the world. 7 billion meals and counting since 1981. She managed Yale University’s Dwight Hall Soup Kitchen in New Haven, CT when in 1981 she created her first food recovery program under the name of New Haven Food Salvage Project. Created a perishable food distribution system in which local food producers, restaurants and caterers could donate their unused food and feed hungry people in local shelters, soup kitchens and pantries. In 1982,she has created City Harvest in New York that soon become the biggest non-for-profit food provider for hungry people in the area. In 1989 President Bush nominated Helen as the “Fourth Point Of Light” for her work, and gave her the mandate to assist other communities in creating their own programs. In 1990 she created America Harvest - a non-for- profit corporation with a goal of disseminating Harvest methodology and mission through publications and trainings. In 1995 she created Angel Harvest in Los Angeles and in 2000 Aloha Harvest in Hawaii. Moreover multiple other grassroot food recovery systems where inspired by her work all around the world (in India, France, Germany amongst many others). Her newest project is Maple Leaf Harvest, non-for-profit corporation based in Toronto with a mission of disseminating Harvest methodology to all of Canadian cities and feeding hungry people in the Southern Ontario region.</p>      </div>
+      <div class="modal-footer">
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display: none;" class="modal fade" id="robertD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+<p style="text-align:center;"> <img src="css/staff/Robert.jpg"  height="195px;" width="215px;"></p>
+            <p class="nameT" style="text-align:center">  Robert Edward Harrison  <br> </p>
+
+        <p class="positionT" style="text-align:center">   Board Member  <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;">  r.harisson@mapleleafharvest.org   </span>
+         </p></div>
+      <div class="modal-body">
+    <p class="pLetters" style="text-align:justify"> A senior technical consultant, with 40 years’ experience in the field of automation systems. Having built control panels for a wide range of systems, from hydro power generation plants down to automated bakery production system. Developed, produced and installed computer system for corporate headquarters, sales offices to manufacturing plants and departments. As a plant engineer designed a complete manufacturing plant and all production equipment, managed the plant construction project, commissioned and then ran the plant. A dedicated volunteer, with 46+ years of volunteer/community service, for local, provincial and national organizations. Over the years performed a wide range of volunteer activates from: being a Communications Officer on a Lake Ontario Marine rescue boat, to sitting on many Boards of Director groups, to producing and donating tens of thousands of dollars of signage to Not-For- Profit organizations to help with their public image. Greatest joy is involvement in organizations that make a difference in people’s lives. </p>      </div>
+      <div class="modal-footer">
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display: none;" class="modal fade" id="shawnB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+<p style="text-align:center;"> <img src="css/staff/Robert.jpg"  height="195px;" width="215px;"></p>
+            <p class="nameT" style="text-align:center">  Shawn William Baker  <br> </p>
+
+        <p class="positionT" style="text-align:center">   Board Member  <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;">  r.harisson@mapleleafharvest.org   </span>
+         </p></div>
+      <div class="modal-body">
+    <p class="pLetters" style="text-align:justify"> Since 1985, Shawn William has worked in the metal installation industry and founded Canadian Metal Manufacturing Inc. in 1997 and has been serving the construction industry by supplying and installing sheet metal components. In 2004 he started serving the Self-Storage industry as the only Canadian manufacturer and supplier of self-storage components. In 2008 he saw the creation of a team of experts to offer TurnKey Storage SystemsTM, integrated services from setting up to implementing functional day to day operation of self-storage facilities. Today his companies offer complete turnkey services to individuals or organizations, tackling both small and major projects.  </p>      </div>
+      <div class="modal-footer">
+          
+      </div>
+    </div>
+  </div>
+</div>
+	<div id="team">
+		    <img src="css/fade.png" style="opacity:0.6;" height="80 px" width="100%">
+        <div class="row">
+
+			<div class="col-sm-12">			
+			<div class="container">
+   <div class=" topRibbon" >
+      <p class="headingWord">Team</p>
+     <p class="teamGroup"> Board Members </p>
+    </div>
+ <div class=" topRibbon2" >
+      <p class="headingWord">Team</p>
+     <p class="teamGroup"> Board Members </p>
+    </div>
+
+    <img style="left: 100px;" src="css/page-header.png" id="headR"><br>
+	</div>
+          <div class="clearfix col-sm-12 col-xs-12">
+          <div class=" clearfix  col-sm-5 col-xs-12">
+            <p class="memberPic">    <img src="css/staff/Helen.jpg" height="195px;" width="250px;"> </p>
+          </div>
+    <div class=" clearfix  col-sm-7 col-xs-12 paragraphT ">
+      <p class="nameT"> Helen verDuin Palit <br></p>
+            <p class="positionT">  Founder and President <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;"> h.palit@mapleleafharvest.org  </span></p>
+
+       <p class="pLettersT"> A Social Entrepreneur pioneered the perishable food recovery system feeding one million people a day throughout the 1,103 cities of the world. 7 billion meals and counting since 1981. She managed Yale University’s Dwight Hall Soup Kitchen in New Haven, CT when in 1981 she created her first food recovery  <a style="color:green" href="#" data-toggle="modal" data-target="#helenD"> ...Read More </a> <br> <br><br></p> 
+
+	</div>
+            <div>
+        <div style="-top: 10%;">
+                    <div class="clearfix col-sm-12 col-xs-12">
+
+          <div class=" clearfix  col-sm-5 col-xs-12">
+            <p class="memberPic">     <img src="css/staff/Robert.jpg" height="195px;" width="250px;"> </p>
+          </div>
+        <div class=" clearfix  paragraphT col-sm-7 col-xs-12">
+      <p class="nameT">  Robert Edward Harrison <br></p>
+            <p class="positionT">  Board Member <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;"> r.harisson@mapleleafharvest.org  </span></p>
+
+       <p class="pLettersT"> A senior technical consultant, with 40 years’ experience in the field of automation systems. Having built control panels for a wide range of systems, from hydro power generation plants down to automated bakery production system. Developed, produced and installed computer system for corporate  <a style="color:green" href="#" data-toggle="modal" data-target="#robertD"> ...Read More </a> <br> <br><br></p> 
+
+	</div>
+          </div>
+              </div>
+        <br>  <br>
+                    <div class="clearfix col-sm-12 col-xs-12">
+
+          <div class=" clearfix  col-sm-5 col-xs-12">
+            <p style="float:right"> fdsfsdf </p>
+          </div>
+        <div class="clearfix  paragraphT col-sm-7 col-xs-12">
+      <p class="nameT">  Shawn William Baker <br></p>
+            <p class="positionT">  Board Member <br> </p>
+
+       <p class="pLettersT"> Since 1985, Shawn William has worked in the metal installation industry and founded Canadian Metal Manufacturing Inc. in 1997 and has been serving the construction industry by supplying and installing sheet metal components. In 2004 he started serving the Self-Storage industry as the only Canadian  <a style="color:green"href="#" data-toggle="modal" data-target="#shawnB"> ...Read More </a> <br> <br> <br>  </p> 
+
+	</div>
+          </div>
+           <br>  <br>
+            <div class="col-sm-12 col-xs-12 ">
+            <p id="staffHeading"> Staff </p>
+        
+          </div>
+		      <p id="staffHeading2"> Staff </p>
+           <div class="clearfix col-sm-12 col-xs-12">
+
+          <div class="col-sm-5 col-xs-12">
+              <p class="memberPic">   <img src="css/staff/Brian.jpg"  height="195px;" width="250px;"> </p>
+
+          </div>
+        
+        <div class="paragraphT col-sm-7 col-xs-12">
+      <p class="nameT"> Brian Leung <br></p>
+            <p class="positionT">  Financial Analyst <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;"> b.leung@mapleleafharvest.org  </span></p>
+
+       <p class="pLettersT"> Brian Leung is a recent University Graduate in Business Administration. Prior to his involvement in Maple Leaf Harvest, Brian Leung was a “top volunteer” as described in the not-for-profit industry.  <br> <br> <br> </p> 
+
+	</div>
+              </div>
+           <br>  <br>
+         
+          <div class="clearfix col-sm-12 col-xs-12">
+
+           <div class=" clearfix  col-sm-5 col-xs-12">
+                <p class="memberPic">  <img src="css/staff/John.jpg"  height="195px;" width="250px;"> </p>
+
+          </div>
+         <div class="clearfix  paragraphT col-sm-7 col-xs-12">
+      <p class="nameT">  John Carlo Puopolo <br></p>
+            <p class="positionT">  Administration Generalist <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;">  j.puopolo@mapleleafharvest.org   </span></p>
+
+       <p class="pLettersT"> John Carlo is currently working towards becoming a Chartered Professional Accountant (formerly Chartered Accountant). He has volunteered at Scott Mission, St. Francis and also at St. Joseph the Worker Parish.  <a style="color:green" href="#"> ...Read More </a> <br> <br> <br></p> 
+
+	</div>
+              </div>
+           <br>  <br>
+   <div class="clearfix col-sm-12 col-xs-12">
+
+     <div class=" clearfix  col-sm-5 col-xs-12">
+          <p class="memberPic">   <img src="css/staff/kacper.jpg"  height="195px;" width="250px;"> </p>
+
+          </div>
+         <div class="clearfix  paragraphT col-sm-7 ocl-xs-12">
+      <p class="nameT">  Kacper Nowacki <br></p>
+            <p class="positionT">   Director of Administration and Development <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;">  k.nowacki@mapleleafharvest.org   </span></p>
+
+       <p class="pLettersT"> In 2010 joined Centre for Citizenship Education (Warsaw, Poland) as a program coordinator, where he worked on several national and international educational projects, such as Project “Click”, with Google Poland, “Evening with Ombudsman”, with the EU Commission and the Polish Ombudsman Bureau and “Culture &amp; Education in Libraries”. Worked with Academy for the Development of Philanthropy in Poland and was a part of the Networking European Citizenship Education (NECE) initiative. Currently is involved in Gifted People Services - Canadian non-for-profit organization working with children with developmental disabilities.</p> 
+
+	</div>
+        </div>
+              
+	    <img class="leafs" src="css/maple2.png">
+
+	</div>
+	</div>
+        </div>
+    </div>
+	</div>
+	<section class="module parallax parallax-1 container-fluid">
+</section>
+
+		
+</body>
+
+
+</html>

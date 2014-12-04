@@ -1,0 +1,5 @@
+<img src="css/fade.png" style="position:fixed; z-index:7; top:70px" height="40px" width="100%;">
+
+<div id="navTest" style="background-image: url('css/fR2.jpg'); background-size: 100%; background-position: 5px 430px;; background-repeat:none;height: 80px; width: 100%; position: fixed; z-index: 7; display: block;">
+</div>
+

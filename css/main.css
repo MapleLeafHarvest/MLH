@@ -1,7 +1,8 @@
 #headline {
-     background-image: url("food3O.jpg");
+     background-image: url("fR3.jpg");
+     background-position: 0% 60%;
      background-repeat: no-repeat;
-     background-size: 100% 117%;
+     background-size: 100% auto;
      height: 589px;
 }
 
@@ -14,14 +15,14 @@
 #blog {
      background-color: white;
      position: relative;
-     z-index: 1;
+     z-index: 5;
 }
 
 #support {
      background-color: white;
      height: 589px;
      position: relative;
-     z-index: 1;
+     z-index: 5;
 }
 
 body {
@@ -37,28 +38,6 @@ body {
      font-size: 15px;
      font-weight: 300;
 }
-.paragraphT {
-     left: 400px;
-     position: relative;
-     top: -70px;
-     width: 50%;
-	 text-align:justify;
-}
-
-.nameT {
-     font-family: "Roboto",sans-serif;
-     font-size: 23px;
-     font-weight: 300;
-}
-
-.positionT {
-     color: #9bd450;
-     font-family: "Roboto",sans-serif;
-     font-size: 20px;
-     font-weight: 300;
-     position: relative;
-     top: -10px;
-}
 
 #other {
      position: relative;
@@ -70,9 +49,10 @@ body {
      font-weight: 300;
 }
 
-#navTest{
-background-color:black;
-} 
+#navTest2 {
+     background-image: url("bar.png");
+     background-size: 100% 100%;
+}
 
 #slogan {
     
@@ -112,6 +92,7 @@ background-color:black;
      font-family: "Roboto",sans-serif;
      font-size: 17px;
      font-weight: 300;
+     text-align: justify;
 }
 
 .aboutH {
@@ -156,6 +137,9 @@ background-color:black;
      position: relative;
 }
 
+.leafs2 {
+     position: relative;
+}
 #fade {
     
 }
@@ -173,14 +157,128 @@ background-color:black;
      background-image: url("css/maple.png");
 }
 
-@media screen and (max-width: 400px) {
+/*.paragraphMobile {
+     display: none;
+     top: -90px;
+     width: 250px;
+  position:relative;
+  margin: 0px auto;
+}
+*/
+.mobileHW{
+  color: #9bd450;
+     font-family: "Roboto",sans-serif;
+     font-size: 35px;
+     font-weight: 300;
+  left:80px;
+  position:relative;
+}
+
+.mobileTabs{
+color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+}
+.paragraphMobile{
+display: none;
+     left: -2%;
+     margin: 0px auto;
+     position: relative;
+     top: -90px;
+}
+.originalHeaderW {
+     height: 0px;
+     left: 170px;
+     position: relative;
+     top: 60px;
+     width: 250px;
+     z-index: 5;
+}
+
+.mobileHeaderW {
+     display: none;
+     height: 0px;
+     margin:0px auto;
+     position: relative;
+     top: 40px;
+     z-index: 5;
+  left:-80px;
+}
+
+.originalHeader {
+     left: 100px;
+     position: relative;
+}
+
+/*.mobileHeader {
+position:relative;
+left:-50px;
+display:none;
+  margin:0px auto;
   
-  #nav-buttons{display: none;}
+}
+*/
+.mobileHeader{
+     display: none;
+     left: -70px;
+     position: relative;
+}
+#mobileSupport {
+     display: none;
+}
+
+@media screen and (max-width: 900px) {
+  #headline { display: none; }
+  #pic1 { display: none; }
+  #pic2 { display: none; }
+  #logo { display: none; }
+  #mobileLogo { position: fixed; z-index: 10; display: block ! important; }
+  #mobileSocial { position: fixed; z-index: 10; top: 10px; left: 60%; display: block ! important; }
+  #navTest { display: block ! important; }
+  #headliner2 { display: none ! important; }
+  #vid { display: none ! important; }
+  #slogan { display: none ! important; }
+  .pLetters { font-size: 14px; }
+  .originalHeaderW { display: none; }
+  .mobileHeaderW { display: block; }
+  .mobileHeader { display: block; }
+  .originalHeader { display: none; }
+  .mobileHeader { display: block; }
+  .paragraphMobile { display: block; }
+  .paragraph { display: none; }
+  .fade { display: none; }
+  .leafs { top: -300px; width:100%;}
+  .leafs2 { top: -450px; }
+  #support { margin-top: -50px; }
+   #blog { margin-top: -10px; }
+  .dropdown { display: none; }
+  .aboutList { display: inline; padding: 2%; text-align: center; }
+    #about{
+   top:50px; 
+  }
+  #navTest{display:none;}
+    #navTest2{display:block;}
+
+  }
+
+@media screen and (max-width: 960px) {
+}
+
+ /* #slogan { display:none;}
+      #headliner2 {display:none;}
+      #mobileNav {display:block;}
+
+  #headline {display:none;}
+  #mobileNav{display:block;}
+    #navTest {display:block;}
+
+  
+  #mobileNav12{display: block;}
+  #originalNav12{display:none;} 
 }
 
 @media screen and (max-width: 960px) {
   
   
-  #headline{ display:none;}
-  #headliners {display:block;}
-}
+  /* #mobileNav12{display: block;}
+  #originalNav12{display:none;}
+  #headliners {display:block;} 
+} */

@@ -5,22 +5,30 @@
 <head>
 	<title> Maple Leaf Harvest </title>
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="css/dist/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/dist/css/bootstrap.min.css">
 <link rel ="stylesheet" href ="css/main.css">
+<link rel ="stylesheet" href ="css/team.css">
+<link rel="icon" href="favicon.ico" /> 
+<!-- Latest compiled and minified CSS -->
 
+<!-- Optional theme -->
+
+
+<!-- Latest compiled and minified JavaScript -->
 <!-- Optional theme -->
 <link rel="stylesheet" href="css/dist/css/bootstrap-theme.min.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300' rel='stylesheet' type='text/css'>
 <meta charset="utf-8">
-<link href="//vjs.zencdn.net/4.10/video-js.css" rel="stylesheet">
-<script src="//vjs.zencdn.net/4.10/video.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
- <script  type="text/javascript"src="http://code.jquery.com/jquery-2.1.0.min.js"></script>	
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+	
+  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript"src="js/maple.js"></script>
+   <script  type="text/javascript"src="http://code.jquery.com/jquery-2.1.0.min.js"></script>	
+<script type="text/javascript"src="js/maple.js"></script>
 
 	<noscript> Javascript Must be enabled on your browser! </noscript>
 <style type="text/css">
@@ -59,117 +67,200 @@ section.module.parallax-2 {
 
 
 
+<div id="mobileLogo" class="dropdown" style="position:fixed; z-index:10; display:none;">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false" style="background-color:transparent;color:white; border:none; position:relative; top:25px; left:25px;">
+    
+    <span class="glyphicon glyphicon-th"></span>
+  </button>
+  <ul style="position:fixed; top:67px; background-color:rgba(0,0,0,0.8)" aria-labelledby="dLabel" role="menu" class="dropdown-menu">
+				<li><a style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" href="index.html"> Home </a> </li>
 
-
-
-
-
-
-<div id="headliners" style="display:none">
-	<div id="nav-buttons">
-			<ul class="nav navbar-nav navbar-fixed-top " id="mainNav">
-				<li><a id="navB" href="#"> Home </a> </li>
-				
-   <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="font-family: Roboto,sans-serif;
+  <li role="presentation" class="divider"></li>
+      <li role="presentation" class="dropdown-header" style="font-family: 'Roboto',sans-serif;
      font-size: 15px;
-     font-weight: 300;">About us <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu" style="background-color:rgba(0,0,0,0.2); width:300px; left:80px; font-family: Roboto,sans-serif;
+     font-weight: 300; color:white">About Us</li>
+    <li><a href="#about" style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;">Who we are</a></li>
+            <li><a href="whatmakes.html" style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;">What Makes us Different</a></li>
+            <li><a href="foodis.html" style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;">Food is Available</a></li>
+            <li style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;"></li>
+            <li><a href="people.html" style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;">People are in Need</a></li>
+	    <li><a href="helen.html" style="font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; color:#9bd450;">Our Founder</a></li>
+      <li role="presentation" class="divider"></li>
+
+    
+<li> 
+    
+    </li><li class="dropdown">
+          <a href="#" class="dropdown-toggle navB " style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" data-toggle="dropdown" role="button" aria-expanded="true">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu" id="dropTest" role="menu" style="background-color:rgba(0,0,0,0.9);width:300px; top:59px;left:80px; font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="#about" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Who we are</a></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="whatmakes.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">What Makes us Different</a></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="foodis.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Food is Available</a></li>
             <li style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;"></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="people.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">People are in Need</a></li>
-	    <li><a href="#" style="font-family: Roboto,sans-serif;
+	    <li><a href="helen.html" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Our Founder</a></li>
+          </ul>
+        </li>
+    <li><a style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" href="#blog"> Blog </a></li>
+				<li><a style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" href="#support"> Support Us </a></li>
+				<li><a style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" href="team.html"> Team </a></li>
+				<li><a style="color:white; font-family: 'Roboto',sans-serif; font-weight:300;
+" href="contact.html"> Contact </a></li>
+  </ul>
+</div>
+<ul id="mobileSocial" class="navbar-nav pull-right" style="position:fixed; z-index:10; top:10px;left:60%; display:none;">
+  <li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+        				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+                				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+</ul>
+
+
+
+<!--- nav bar after passing headline -->
+<div id="headliners" style="display: none;">
+	<nav class="navbar-nav navbar-fixed-top" role="navigation">
+
+    <ul class="nav navbar-nav" style="margin-top:10px;"> 
+      
+			</ul>
+    
+			<ul class="nav navbar-nav navbar-right" id="mainNav" style="margin-top:10px; font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; margin-right:2%;">
+				<li><a class="navB" href="index.html"> Home </a> </li>
+				
+   <li class="dropdown">
+          <a href="#" class="dropdown-toggle navB" id="dropperT" data-toggle="dropdown" role="button" aria-expanded="true">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu" id="dropTest" role="menu" style="background-color:rgba(0,0,0,0.9);width:300px; top:59px;left:80px; font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">
+            <li><a href="#about" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Who we are</a></li>
+            <li><a href="whatmakes.html" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">What Makes us Different</a></li>
+            <li><a href="foodis.html" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">Food is Available</a></li>
+            <li style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;"></li>
+            <li><a href="people.html" style="font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400; color:#9bd450;">People are in Need</a></li>
+	    <li><a href="helen.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Our Founder</a></li>
           </ul>
         </li>
 
        
-				<li><a id="navB" href="#"> Blog </a></li>
-				<li><a id="navB" href="#"> Support Us </a></li>
-				<li><a id="navB" href="#"> Team </a></li>
-				<li><a id="navB" href="#"> Contact </a></li>
-				<li>  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
-        				  <li >  <a class="btn btn-social-icon btn-twitter" href ="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916"><i class="fa fa-facebook fa-lg"></i></a> </li>
-                				  <li>  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
-			</ul>
-		
-		</div>
-</div>
-<div id="navTest" style="height:70px; width:100%;  position:fixed; z-index:7; display:none;">
-</div>
-	<div id="headline">
-	      <nav class="navbar  navbar-fixed-top" role="navigation">
-
-	<div id="nav-buttons">
-    <ul class="nav navbar-nav" style="margin-top:10px;"> 
-      <li style="display:inline">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+				<li><a class="navB" href="#blog"> Blog </a></li>
+				<li><a class="navB" href="#support"> Support Us </a></li>
+				<li><a class="navB" href="team.html"> Team </a></li>
+				<li><a class="navB" href="contact.html"> Contact </a></li>
+				<li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
         				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
                 				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
 			</ul>
+		
+    </nav>
+</div>
+
+<!--<div id="navTest" style="height:70px; width:100%;  position:fixed; z-index:7; display:none;">
+</div> -->
+<div id="navTest" style="background-image: url(&quot;css/fR2.jpg&quot;); background-size: 100% auto; background-position: 5px 430px; height: 70px; width: 100%; position: fixed; z-index: 7; display: none;">
+</div>
+	<div id="headline">
+	      <nav style="display: block;" id="headliner2" class="navbar-nav navbar-fixed-top" role="navigation">
+
+    <ul class="nav navbar-nav" style="margin-top:10px;"> 
+ 	</ul>
     
-			<ul class="nav navbar-nav" id="mainNav" style="margin-top:10px;">
-				<li><a id="navB" href="#"> Home </a> </li>
+			<ul class="nav navbar-nav navbar-right" id="mainNav" style="margin-top:10px; font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+     font-weight: 300; margin-right:2%;">
+				<li><a class="navB" href="index.html"> Home </a> </li>
 				
    <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="font-family: Roboto,sans-serif;
-     font-size: 15px;
-     font-weight: 300;">About us <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu" style="background-color:rgba(0,0,0,0.2); width:300px; left:80px; font-family: Roboto,sans-serif;
+          <a href="#" class="dropdown-toggle navB" id="dropper" data-toggle="dropdown" role="button" aria-expanded="false">About us <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu" id="dropTest" style="background-color:rgba(0,0,0,0.8); width:300px; left:80px; font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="#about" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Who we are</a></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="whatmakes.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">What Makes us Different</a></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="foodis.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Food is Available</a></li>
             <li style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;"></li>
-            <li><a href="#" style="font-family: Roboto,sans-serif;
+            <li><a href="people.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">People are in Need</a></li>
-	    <li><a href="#" style="font-family: Roboto,sans-serif;
+	    <li><a href="helen.html" style="font-family: Roboto,sans-serif;
      font-size: 15px;
      font-weight: 400; color:#9bd450;">Our Founder</a></li>
           </ul>
         </li>
 
        
-				<li><a id="navB" href="#"> Blog </a></li>
-				<li><a id="navB" href="#"> Support Us </a></li>
-				<li><a id="navB" href="#"> Team </a></li>
-				<li><a id="navB" href="#"> Contact </a></li>
+				<li><a class="navB" href="#blog"> Blog </a></li>
+				<li><a class="navB" href="#support"> Support Us </a></li>
+				<li><a class="navB" href="team.html"> Team </a></li>
+				<li><a class="navB" href="contact.html"> Contact </a></li>
+				     <li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+        				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+                				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+		
 			</ul>
 		
-		</div>
     </nav>
 		
 		</div>
 		
-		<ul style="top:10px; position:fixed"> 
+		
+	<!--	<ul style="top:10px; position:fixed; display:none"> 
       <li style="display:inline">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
         				  <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
                 				  <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
-			</ul>
+			</ul> -->
 
 	<div id="headline2" style="display:none">
 	<nav class="navbar navbar-nav navbar-fixed-top" role="navigation" style="background-image: url('test.jpg')">
@@ -229,29 +320,37 @@ section.module.parallax-2 {
 	</div>
 		
 		<div id="slogan">
-		<img style="height: 150px; width: 150px; left: 160px; top: 50px; z-index: 7;" src="css/logo.jpg" id="logo">
+		<img style="height: 118.333px; width: 118.333px; left: 192px; top: 50px; z-index: 7;" src="css/logo.jpg" id="logo">
 		<p id="sloganW"> The food is available. The people are in need. <br> <span style="color:#9BD450"> Maple Leaf Harvest </span> is the solution. </p>		
 		
- <iframe id="vid" src="//player.vimeo.com/video/108728447" width="500" height="281" style="position:relative; top:200px; left:400px; position:fixed" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+ <iframe id="vid" src="//player.vimeo.com/video/108728447" style="position: fixed; display: block;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" height="281" width="500"></iframe> 
  
-		<a  id="supportB1" class="btn btn-large btn-success pLetters" style="height:50px; width: 150px; top: 500px; left: 556.5px;position:fixed;" href="#">       
-	   <p style="position:relative; top:5px; "> Support Us </p></a>
+		<a id="supportB1" class="btn btn-large btn-success pLetters" style="height: 50px; width: 150px; top: 500px; left: 569.3px; position: fixed; display: block;" href="#support">       
+	   <p style="position:relative; top:5px; left:20px;"> Support Us </p></a>
 		</div>
 	
-	</div>
+	
 	<div id="other">
 
 	<div id="about">
-		    <img src="css/fade.png" style="opacity:0.6;" height="80 px" width="100%">
 			<div class="container">
-   <div style="position:relative; left:170px; top:40px; height: 0px; width: 250px; z-index:5; ">
+    <div class="originalHeaderW" style="margin-top:15px;">
       <p class="headingWord">About Us</p>
     </div>
+        
+          <div class="mobileHeaderW">
+      <p class="mobileHW">About Us</p>
+    </div>
+        
+    <img src="css/page-header.png" class="mobileHeader"><br>
 
-    <img src="css/page-header.png" style="position:relative; left:100px;"><br>
-    <div class="paragraph">
+    <img src="css/page-header.png" class="originalHeader">
+        <br>
+        
+        
+        <div class="paragraphMobile">
       <p class="aboutH"> Who we are <br></p>
-       <p class="pLetters" > Inequality in food distribution is hardly a new topic. There has always been some who have less 
+       <p class="pLetters"> Inequality in food distribution is hardly a new topic. There has always been some who have less 
 
 in the face of others having more. We don't want things to remain this way and we need your 
 
@@ -269,71 +368,343 @@ beneficiaries. <br> <br> We accomplish this by looking into previously untapped 
 
 delivery model, taking advantage of new technologies and being much more flexible than 
 
-traditional organizations. <br> <br> Find out more about What Makes Us Different! <br> <br> This is a proven concept. Our cost efficient approach comes from a long line of successes
+traditional organizations. <br> <br> Find out more about <a href="whatmakes.html" style="color:green">What Makes Us Different! </a> <br> <br> This is a proven concept. Our cost efficient approach comes from a long line of successes
 
 across the world but we need your help to achieve our goals in Canada. <br> <br> 80% of every donated dollar goes to our program costs: ”fueling" our transportation system with 
 
 trained commercial drivers, refrigerated trucks, fuel, phones, and insurance. <br> <br> The food is available. The people are in need. Maple Leaf Harvest is the solution. </p>
 
+<ul style="display:inline; top:30px; position:relative;">
+     <li class="col-xs-12 aboutList" style="display:inline; padding-right:25px;"> <a href="whatmakes.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button style="width:100%;" class="btn btn-default">  What Makes Us Different
+																				 </button> </a></li>
+
+     <li class="col-xs-12 aboutList" style="display:inline; padding-right:25px;"> <a href="foodis.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button style="width:100%;" class="btn btn-default">  Food is Available
+																				 </button> </a></li>
+    <li class="col-xs-12 aboutList" style="display:inline; padding-right:25px;"> <a href="people.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button style="width:100%;" class="btn btn-default">  People are in Need
+																				 </button> </a></li>
+	 <li class="col-xs-12 aboutList" style="display:inline; padding-right:25px;"> <a href="helen.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button style="width:100%;" class="btn btn-default">  Our Founder
+																				 </button> </a></li> 
+	</ul>
 	</div>
-	    <img class="leafs" src="css/maple2.png">
+	
+	<div class="paragraph">
+      <p class="aboutH"> Who we are <br></p>
+       <p class="pLetters"> Inequality in food distribution is hardly a new topic. There has always been some who have less 
+
+in the face of others having more. We don't want things to remain this way and we need your 
+
+help to change it. <br> <br> As a non-for-profit food rescue organization, we here at Maple Leaf Harvest dedicate ourselves
+
+to finding long-term innovative solutions to the issue of food inequality and hunger in Canada. <br> <br> Many food-related organizations often have food on hand that they don't need; that's where 
+
+Maple Leaf Harvest comes in. Deploying Health-Department-Certified drivers and refrigerated 
+
+trucks, we pick up the food and deliver it immediately for free to local soup kitchens and shelters 
+
+to feed the increasing number of hungry men, women and children at no cost to our donors and 
+
+beneficiaries. <br> <br> We accomplish this by looking into previously untapped food sources, using a “just-in-time”
+
+delivery model, taking advantage of new technologies and being much more flexible than 
+
+traditional organizations. <br> <br> Find out more about <a href="whatmakes.html" style="color:green"> What Makes Us Different! </a> <br> <br> This is a proven concept. Our cost efficient approach comes from a long line of successes
+
+across the world but we need your help to achieve our goals in Canada. <br> <br> 80% of every donated dollar goes to our program costs: ”fueling" our transportation system with 
+
+trained commercial drivers, refrigerated trucks, fuel, phones, and insurance. <br> <br> The food is available. The people are in need. Maple Leaf Harvest is the solution. </p>
+
+ <ul style="display:inline; top:30px; position:relative;">
+     <li style="display:inline; padding-right:25px;"> <a href="whatmakes.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button class="btn btn-default">  What Makes Us Different
+																				 </button> </a></li>
+
+     <li style="display:inline; padding-right:25px;"> <a href="foodis.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button class="btn btn-default">  Food is Available
+																				 </button> </a></li>
+    <li style="display:inline; padding-right:25px;"> <a href="people.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button class="btn btn-default">  People are in Need
+																				 </button> </a></li>
+	 <li style="display:inline; padding-right:25px;"> <a href="helen.html" style="  color: green;
+     font-family: 'Roboto',sans-serif;
+     font-size: 15px;
+                                                                                 font-weight: 300;"><button class="btn btn-default">  Our Founder
+																				 </button> </a></li> 
+	</ul>
+	</div>
+<!--	    <img class="leafs" src="css/maple2.png"> -->
 
 	</div>
+
 	</div>
-	<section class="module parallax parallax-2 container-fluid" style="height:200px;">
+
+	<section id="pic1" class="module parallax parallax-2 container-fluid" style="height:200px;">
 </section>
-		<div id="blog">
+	<!--	<div id="blog"> -->
+ 		<div id="blog">
+
  
-		    <img src="css/fade.png" style="opacity:0.6;" height="80 px" width="100%">
 
     
 <div class="container">      
-    <div style="position:relative; left:170px; top:40px; height: 0px; width: 250px; z-index:5; ">
+    <div class="originalHeaderW" style="margin-top:20px;">
     
 	<p class="headingWord">Blog</p>
     </div>
+	
+	 <div class="mobileHeaderW">
+    
+	<p class="mobileHW">Blog</p>
+    </div>
 
-    <img src="css/page-header.png" style="position:relative; left:100px;"><br>
-    <div class="paragraph">
+    <img src="css/page-header.png" class="mobileHeader"><br>
+	    <img src="css/page-header.png" class="originalHeader"><br>
+
+		 <div class="paragraphMobile">
       <p class="pLettersH"> Crowd Funding Campaign <br> <span class="pLetters"> October 15th 2014 </span> </p>
        <p class="pLetters"> As part of our efforts to operate as a nonprofit while serving the community, Maple Leaf Harvest has launched a crowdfunding campaign. We believe other Canadians care about this issue just as much as we do and will support us in raising money towards our goal of feeding the hungry with our process
-	</p> 
+	<a style="color:green" href="#"> ...Read More </a></p> 
 	<br> 
 	<br>
-       <p class="pLettersH"> Crowd Funding Campaign <br> <span class="pLetters"> October 15th 2014 </span> </p>
+       <p class="pLettersH"> Maple Leaf Harvest Joins Centre for Social Innovation
+ <br> <span class="pLetters"> September 15th 2014 </span> </p>
+       <p class="pLetters"> Maple Leaf Harvest is happy to become a member of the Centre for Social Innovation. As the focus of this Toronto-based group is to provide support for those trying to further public good, they were a perfect match for our organization. Not only do they provide much-needed physical space to Maple
+	<a style="color:green" href="#"> ...Read More </a></p></div>
+    <div class="paragraph">
+    <p class="pLettersH"> Crowd Funding Campaign <br> <span class="pLetters"> October 15th 2014 </span> </p>
        <p class="pLetters"> As part of our efforts to operate as a nonprofit while serving the community, Maple Leaf Harvest has launched a crowdfunding campaign. We believe other Canadians care about this issue just as much as we do and will support us in raising money towards our goal of feeding the hungry with our process
-	</p></div>
-	    <img class="leafs" src="css/maple2.png">
+	<a style="color:green" href="blog1.html"> ...Read More </a></p> 
+	<br> 
+	<br>
+       <p class="pLettersH"> Maple Leaf Harvest Joins Centre for Social Innovation
+ <br> <span class="pLetters"> September 15th 2014 </span> </p>
+       <p class="pLetters"> Maple Leaf Harvest is happy to become a member of the Centre for Social Innovation. As the focus of this Toronto-based group is to provide support for those trying to further public good, they were a perfect match for our organization. Not only do they provide much-needed physical space to Maple
+	<a style="color:green" href="blog2.html"> ...Read More </a></p>
+	<br> 
+	<br>
+       <p class="pLettersH"> Mission Statement
+ <br> <span class="pLetters"> September 1st 2014</span> </p>
+       <p class="pLetters"> As a non-profit organization, Maple Leaf Harvest is dedicated to 
+	   providing help where possible to the hungry. We do this by finding otherwise untapped
+	   sources of leftover food and delivering it to those who need it the most. 
+	   Our Mission Statement and Vision reflect our desire to help improve the
+	<a style="color:green" href="blog3.html"> ...Read More </a></p>
+	</div>
+	
+  
+			    <img class="leafs" style="margin-top: -500px;" src="css/maple2.png">
 
 	</div>
 	</div>
-<section class="module parallax parallax-1 container-fluid">
+<section id="pic2" class="module parallax parallax-1 container-fluid">
 </section>
 <div id="support">
-    <img src="css/fade.png" style="opacity:0.6;" height="10%" width="100%">
+
       <div class="container">
-    <div style="position:relative; left:170px; top:40px; height: 0px; width: 250px; z-index:5; ">
+    <div class="originalHeaderW">
+      <p class="headingWord" style="top:-20px; margin-top:20px; position:relative;">Support Us</p>
+    </div>
+	  <div class="mobileHeaderW">
+      <p class="mobileHW" style="top:20px;">Support Us</p>
+    </div>
+    <img src="css/page-header.png" class="originalHeader"><br>
+	    <img src="css/page-header.png" class="mobileHeader"><br>
+
+  <div class="paragraph">
+  <p class="pLetters"> On the 10th of December Maple Leaf Harvest is launching our new New Year's Challenge crowdfunding campaign! In 2015 let us together fight hunger in Canada! Please continue checking us out on our website, Facebook, Twitter and LinkedIn. Visit out our campaign’s profile and learn more about the New Year's Challange!  </p> <br>
+    <p class="pLetters"> Want to volunteer for Maple Leaf Harvest? <br> Send your resume to <span style="color: #00C3FF;">hr@mapleleafharvest.org </span>  
+    </p>
+    <br>
+    <br>
+    <p class="pLetters"> Keep an ear and an eye out for us! </p> <br>
+	
+    <a class="btn btn-large btn-success pLetters" style="height: 50px; width: 250px;  position:relative; top:-10px;"  data-toggle="modal" data-target="#robertD" href="#">       
+	   <p style="position:relative; top:5px; left:10px;"> Subscribe to our Newsletter</p></a>
+    <br><br> </div>
+   <!--	<a class="btn btn-large btn-success pLetters" style="height: 50px; width: 250px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:60px;"> Subscribe Now</p></a></div> -->
+	   
+	   <div class="paragraphMobile">
+  <p class="pLetters"> On the 10th of December Maple Leaf Harvest is launching our new New Year's Challenge crowdfunding campaign! In 2015 let us together fight hunger in Canada! Please continue checking us out on our website, Facebook, Twitter and LinkedIn. Visit out our campaign’s profile and learn more about the New Year's Challange!  </p> <br>
+    <p class="pLetters"> Want to volunteer for Maple Leaf Harvest? Send your resume to <span style="color: #00C3FF;">hr@mapleleafharvest.org </span>  
+    </p>
+    <br>
+    <br>
+    <br>
+    <p class="pLetters"> Keep an ear and an eye out for us! </p> <br> 
+       <br>
+	<a class="btn btn-large btn-success pLetters" style="height: 50px; width: 250px;  position:relative; top:-10px;" data-toggle="modal" data-target="#robertD" href="#">       
+	   <p style="position:relative; top:8px; left:20px;"> Subscribe to our Newsletter </p></a> <br> </div>
+   <!--	<a class="btn btn-large btn-success pLetters" style="height: 50px; width: 250px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:10px;"> Subscribe Now </p></a></div> -->
+	<!--    <br>
+    <br>
+        <br>
+        	<a class="btn btn-large btn-danger pLetters" style="height: 50px; width: 150px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:9px;"> Subscribe Now  </p></a>
+-->
+	    
+
+	</div>
+	</div>
+	<div id="mobileSupport">
+    <img src="css/fade.png" class="fade" style="opacity:0.6;" height="80px" width="100%">
+      <div class="container">
+    <div class="originalHeaderW">
       <p class="headingWord">Support Us</p>
     </div>
-    <img src="css/page-header.png" style="position:relative; left:100px;"><br>
+	  <div class="mobileHeaderW">
+      <p class="headingWord">Support Us</p>
+    </div>
+    <img src="css/page-header.png" class="originalHeader"><br>
+	    <img src="css/page-header.png" class="mobileHeader"><br>
+
   <div class="paragraph">
-  <p class="pLetters"> On the 10th of December Maple Leaf Harvest is launching our new "New Year's Resolution" CrowdFunding campaign! In 2015 let us together fight hunger in Canada! Please continue checking us out on our website, Facebook, Twitter and LinkedIn. Keep an ear and an eye out for us! </p> <br>
+  <p class="pLetters">On the 10th of December Maple Leaf Harvest is launching our new New Year's Challenge crowdfunding campaign! In 2015 let us together fight hunger in Canada! Please continue checking us out on our website, Facebook, Twitter and LinkedIn. 
+  Visit out our campaign’s profile and learn more about the New Year's Challange!  </p> <br>
     <p class="pLetters"> Want to volunteer for Maple Leaf Harvest? <br> Send your resume to <span style="color: #00C3FF;">hr@mapleleafharvest.org </span>  
     </p>
     <br>
     <br>
     <br>
-    <p class="pLetters"> Join our crowdfunding campaign </p> <br>
-  <br></div>
-
+    <p class="pLetters"> Keep an ear and an eye out for us! </p> <br>
+   	<a class="btn btn-large btn-success pLetters" style="height: 50px; width: 150px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:20px;"> Subscribe Now </p></a></div>
+	   
+	   <div class="paragraphMobile">
+  <p class="pLetters"> On the 10th of December Maple Leaf Harvest is launching our new New Year's Challenge crowdfunding campaign! In 2015 let us together fight hunger in Canada! Please continue checking us out on our website, Facebook, Twitter and LinkedIn. Visit out our campaign’s profile and learn more about the New Year's Challange!  </p> <br>
+    <p class="pLetters"> Want to volunteer for Maple Leaf Harvest? Send your resume to <span style="color: #00C3FF;">hr@mapleleafharvest.org </span>  
+    </p>
+    <br>
+    <br>
+    <br>
+    <p class="pLetters"> Keep an ear and an eye out for us! </p> <br>
+   	<a class="btn btn-large btn-success pLetters" style="height: 50px; width: 150px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:20px;"> Subscribe Now </p></a></div>
+	<!--    <br>
+    <br>
+        <br>
+        	<a class="btn btn-large btn-danger pLetters" style="height: 50px; width: 150px;  position:relative; top:-10px;" href="#">       
+	   <p style="position:relative; top:5px; left:9px;"> Subscribe Now  </p></a>
+-->
 	    
 
 	</div>
-	<img class="leafs" src="css/maple2.png">
 </div>
+			    <img class="leafs" style="margin-top: -40px; z-index:5" src="css/maple2.png">
+<p style="text-align:center; font-size:12px;" class="pLetters"> Maple Leaf Harvest <span class="glyphicon glyphicon-copyright-mark"> </span><br> Web Design by Thujan Paramsothy <br> Concept by Berry Yalin </p>
 </div>
 
-	
+<!--<div style="display: none;" class="modal fade in" id="robertD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div style="height: 842px;" class="modal-backdrop fade in"></div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <p class="nameT" style="text-align:center">  Subscribe to Our Newsletter  <br>
+              <img src="css/logo.jpg" height="100px;" width="100px" style="margin-top:20px;"></p>
+
+         </div>
+      <div class="modal-body">
+        <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Please Enter Your Full Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Please Enter Your Email Address">
+  </div>
+ 
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+        </div>          
+    </div>
+  </div>
+</div> -->
+
+
+<div style="display: none;" class="modal fade in" id="robertD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"><div style="height: 842px;" class="modal-backdrop fade in"></div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <p class="nameT" style="text-align:center">  Subscribe to Our Newsletter  <br>
+              <img src="css/logo.jpg" height="100px;" width="100px" style="margin-top:20px;"></p>
+
+         </div>
+      <div class="modal-body">
+	  <form action="" method="post" id="mycontactform">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" name="fullname" id="fullName" placeholder="Please Enter Your Full Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Email Address</label>
+    <input type="email" name="emailA" class="form-control" id="emailA" placeholder="Please Enter Your Email Address">
+  </div>
+ 
+  
+  <input type="button" value="Subscribe" id="submit_btn" class="btn btn-default"/>
+  <div id="success" style="color: red;"></div>
+</form>   
+   </div>   
+    </div>
+  </div>
+</div> 
+
+
+
+<script>
+$(document).ready(function(){
+ 
+$('#submit_btn').click(function(){
+ 
+$.post("send.php", $("#mycontactform").serialize(),  function(response) {
+$('#success').html(response);
+//$('#success').hide('slow');
+});
+return false;
+ 
+});
+ 
+});
+</script>
+
+<script> $(function() {
+
+  $('a[href*=#]:not([href=#])').click(function() {
+  	var navig= $("#navig").outerHeight()+10 ;
+
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - navig-5-20
+        }, 1000);
+        return false;
+      }
+    }
+  });
+}); </script>
 
 
 
